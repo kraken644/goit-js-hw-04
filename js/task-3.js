@@ -4,8 +4,8 @@ const profile = {
   changeUsername(newUsername) {
     this.username = newUsername;
   },
-  changePlayTime(newPlayTime) {
-    this.playTime += newPlayTime;
+  updatePlayTime(hours) {
+    this.playTime += hours;
   },
 
   getInfo() {
