@@ -1,3 +1,7 @@
+// Метод визначений як updatePlayTime(hours), але пізніше викликається як profile.changePlayTime(20);. Це призведе до помилки, оскільки changePlayTime не існує. Виклик повинен використовувати існуючу назву методу або метод слід
+
+
+
 const profile = {
     username: "Jacob",
   playTime: 300,
